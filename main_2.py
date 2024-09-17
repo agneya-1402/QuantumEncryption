@@ -4,7 +4,7 @@ from qiskit import QuantumCircuit, transpile, Aer
 from qiskit_ibm_provider import IBMProvider
 import numpy as np
 
-provider = IBMProvider('bb07b6bb8a130a37da9847350827e0e7337dab2cd5b128cd65bdbcfc2731be61a8af827c8096262c023d7b63813f0ac1f6a6a4b571193aed7134bea113702e98')
+provider = IBMProvider('IBM_API_Key')
 
 # Encode
 def encode_message(bits, bases):
