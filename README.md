@@ -25,7 +25,7 @@ The script generates random bits and bases for both Alice and Bob, encodes each 
 3. Replace 'YOUR_API_TOKEN_HERE' in the script with your IBM Quantum API key.
 4. Run the Script:
 ```bash
-python bb84_qkd.py
+python main_2.py
 ```
 
 ## Example Output
